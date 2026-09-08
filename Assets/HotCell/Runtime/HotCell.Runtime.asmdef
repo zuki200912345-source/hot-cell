@@ -1,0 +1,9 @@
+{
+  "name": "HotCell.Runtime",
+  "rootNamespace": "HotCell",
+  "references": [
+    "HotCell.Core",
+    "Unity.Netcode.Runtime",
+    "Unity.Collections"
+  ]
+}

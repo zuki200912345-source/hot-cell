@@ -1,0 +1,5 @@
+{
+  "name": "HotCell.Core",
+  "rootNamespace": "HotCell.Core",
+  "noEngineReferences": true
+}

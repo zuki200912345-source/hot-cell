@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#151614"><meta name="description" content="HOT CELL browser practice shift. Operate a crane, seal a radioactive cask and bring the crew out."><title>HOT CELL / Work order 01</title><link rel="stylesheet" href="/style.css"></head>
+<body><canvas id="scene" aria-label="HOT CELL first-person facility"></canvas>
+<section id="binder" aria-label="Operations binder">
+ <div class="sheet"><div class="paperline"><span>DECOMMISSIONING DIVISION</span><span>FORM HC–01</span></div>
+ <h1>HOT CELL</h1><div class="stamp">LOCAL PRACTICE</div>
+ <h2>Fuel cask transfer</h2><p class="lede">Four suits. One work order.<br>Get the assembly out. Keep the crew alive.</p>
+ <ol><li>Lift and align the fuel assembly.</li><li>Seal eight bolts in the star sequence.</li><li>Carry the cask into the transport bay.</li></ol>
+ <div class="keys"><p><b>W A S D</b> walk &nbsp; <b>MOUSE</b> look</p><p><b>E</b> operate &nbsp; <b>Q</b> reverse &nbsp; <b>F</b> lamp</p><p><b>T</b> dosimeter &nbsp; <b>R</b> work order</p><p><b>1–4</b> switch suit &nbsp; <b>ESC</b> release controls</p></div>
+ <p class="note">You control all four suits in this practice build. Leave a suit at a control and switch to another. The multiplayer Unity version is being built separately.</p>
+ <button id="enter">ENTER FACILITY <span>→</span></button><button id="reset" class="secondary" hidden>START A NEW SHIFT</button>
+ <div class="paperline bottom"><span>DOSE CEILING 100</span><span>20 MIN / SHIFT</span></div>
+ <p id="status" role="status"></p></div>
+</section>
+<div id="readout" hidden aria-live="polite"><span>DOSIMETER / SUIT <b id="suitNumber">01</b></span><strong id="dose">000.0</strong><small>CUMULATIVE DOSE</small></div>
+<section id="order" hidden><h2>WORK ORDER 01</h2><p>Hoist + traverse: leave two suits operating the panels. A third watches alignment. Q reverses an assigned control.</p><p>One suit holds the lid. Another torques bolts to <b>80 ±5</b> in order <b>1 · 5 · 3 · 7 · 2 · 6 · 4 · 8</b>. E holds the wrench. Q loosens. Back off every bolt to zero to reset.</p><p>Assign two suits to carry the cask. Walk together toward the transport bay. Bring three suits to the west side, then operate dispatch.</p><p>1–4 switch suits. E releases a held control. Movement releases a stationary control. R puts this paper away.</p></section>
+<noscript>This game requires JavaScript and WebGL.</noscript><script type="module" src="/game.js"></script></body></html>

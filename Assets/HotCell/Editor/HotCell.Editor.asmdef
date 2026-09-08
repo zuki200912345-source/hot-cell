@@ -1,0 +1,10 @@
+{
+  "name": "HotCell.Editor",
+  "rootNamespace": "HotCell.Editor",
+  "references": [
+    "HotCell.Runtime"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ]
+}
